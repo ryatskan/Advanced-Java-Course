@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox fx:id="windowVBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#keyPressing" prefHeight="525.0" prefWidth="700.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="q2.FourInARowGraphic">
+   <children>
+      <Pane fx:id="gamePane" prefHeight="421.0" prefWidth="700.0">
+         <children>
+            <VBox fx:id="gameVBox" prefHeight="491.0" prefWidth="1400.0">
+               <children>
+                  <HBox prefHeight="50.0" prefWidth="900.0">
+                     <children>
+                        <Rectangle fx:id="rec21" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+                        <Rectangle fx:id="rec22" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+                        <Rectangle fx:id="rec23" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+                        <Rectangle fx:id="rec24" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+                        <Rectangle fx:id="rec25" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="50.0" prefWidth="900.0">
+                     <children>
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="50.0" prefWidth="900.0">
+                     <children>
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="50.0" prefWidth="900.0">
+                     <children>
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="50.0" prefWidth="900.0">
+                     <children>
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="50.0" prefWidth="900.0">
+                     <children>
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="70.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+                     </children>
+                  </HBox>
+                  <Pane prefHeight="583.0" prefWidth="200.0" />
+               </children>
+            </VBox>
+            <Pane fx:id="winnerPane" layoutX="130.0" layoutY="50.0" prefHeight="219.0" prefWidth="453.0">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#b0b0b0" height="223.0" layoutY="38.0" opacity="0.86" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="20.0" width="453.0" />
+                  <Text layoutX="63.0" layoutY="256.0" strokeType="OUTSIDE" strokeWidth="0.0" text="press any key to start a new game" textAlignment="CENTER" wrappingWidth="326.68048095703125">
+                     <font>
+                        <Font name="Bernard MT Condensed" size="23.0" />
+                     </font>
+                  </Text>
+                  <Rectangle fx:id="winnerRec" arcHeight="5.0" arcWidth="5.0" fill="#0080ff" height="83.0" layoutX="154.0" layoutY="108.0" stroke="WHITE" strokeType="OUTSIDE" width="145.0" />
+                  <Text fx:id="winnerText" layoutX="62.0" layoutY="161.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BLUE" textAlignment="CENTER" wrappingWidth="326.68048095703125">
+                     <font>
+                        <Font name="Bodoni MT Black" size="34.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="63.0" layoutY="79.0" stroke="#e9e8e8" strokeType="OUTSIDE" strokeWidth="0.0" text="THE WINNER IS:" textAlignment="CENTER" underline="true" wrappingWidth="326.68048095703125">
+                     <font>
+                        <Font name="Berlin Sans FB" size="34.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <Pane fx:id="lowerPane" prefHeight="106.0" prefWidth="700.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#b4c7d8" height="105.0" stroke="BLACK" strokeType="INSIDE" width="700.0" />
+            <Text layoutX="4.0" layoutY="49.0" text="Current Turn:" wrappingWidth="118.126953125">
+               <font>
+                  <Font name="Book Antiqua" size="16.0" />
+               </font>
+            </Text>
+            <Circle fx:id="turnIndicator" fill="DODGERBLUE" layoutX="26.0" layoutY="75.0" radius="22.0" stroke="BLACK" strokeType="INSIDE" />
+            <Button fx:id="clearButton" layoutX="286.0" layoutY="53.0" mnemonicParsing="false" onAction="#clearChipButtonClick" onMouseClicked="#clearChipButtonClick" prefHeight="44.0" prefWidth="131.0" text="Clear" />
+            <Pane fx:id="buttonPane" layoutY="-3.0" onMouseClicked="#buttonPaneClick" prefHeight="31.0" prefWidth="700.0">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9c9e9f" height="34.0" stroke="BLACK" strokeType="INSIDE" width="700.0" />
+                  <Text layoutX="45.0" layoutY="22.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+                     <font>
+                        <Font name="Bauhaus 93" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="145.0" layoutY="22.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2">
+                     <font>
+                        <Font name="Bauhaus 93" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="245.0" layoutY="22.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3">
+                     <font>
+                        <Font name="Bauhaus 93" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="345.0" layoutY="22.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4">
+                     <font>
+                        <Font name="Bauhaus 93" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="445.0" layoutY="22.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5">
+                     <font>
+                        <Font name="Bauhaus 93" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="545.0" layoutY="22.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6">
+                     <font>
+                        <Font name="Bauhaus 93" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="645.0" layoutY="22.0" strokeType="OUTSIDE" strokeWidth="0.0" text="7">
+                     <font>
+                        <Font name="Bauhaus 93" size="20.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <Text layoutX="508.0" layoutY="99.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Four In A Row Game">
+               <font>
+                  <Font name="Book Antiqua" size="20.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+   </children>
+</VBox>
